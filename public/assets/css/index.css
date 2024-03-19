@@ -1,0 +1,207 @@
+.exportData {
+  position: absolute;
+  right: 1%;
+  margin-top: 1%;
+}
+
+.exportData div:hover {
+  background-color: #008000bd;
+  border-radius: 15%;
+}
+
+.exportButton {
+  background-color: #008000ad;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 15%;
+}
+
+.importData {
+  position: absolute;
+  margin-left: 16%;
+  margin-top: 1%;
+}
+
+.importData input {
+  width: 55%;
+}
+
+.importButton {
+  background-color: #8484efc9;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 5%;
+
+}
+
+.importButton:hover{
+  background-color: #8484ef;
+}
+
+.generatePdf {
+  position: absolute;
+  margin-left: 16%;
+  margin-top: 1%;
+}
+
+.generatePdfButton {
+  background-color: #008000ad;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 8%;
+}
+
+.generatePdfButton:hover {
+  background-color: #008000bd;
+}
+
+.table img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.table td {
+    text-align: center;
+}
+
+.table .userRow .status .toggle {
+  position: relative;
+  width: 40px;
+  height: 26px;
+  border: 2px solid #8a73e5;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #8a73e5;
+}
+
+.table .userRow .status .toggleButton {
+  position: absolute;
+  left: 15px;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  transition: 0.3s;
+}
+
+.table .userRow .status .deActive {
+  border-color:  #808080;
+  background-color: #808080;
+}
+
+.table .userRow .status .deActive .toggleButton {
+  left: 22px;
+  transform: translateX(-100%);
+  transition: 0.3s;
+  background-color:  #ffffff;
+}
+
+.table .userRow .approveUserButton {
+    background-color: #808080;
+    color: white;
+}
+
+.actionButton {
+  background-color: #06a068;
+  color: white;
+  padding: 7px 24px;
+  font-size: 16px;
+  border: 0px solid ;
+  border-radius: 15%;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdownButtons {
+  display: none;
+  position: absolute;
+  background-color: #fff3f3;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 100px;
+}
+
+.dropdownButtons a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdownButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown:hover .actionButton {
+  background-color: #00c47c;
+}
+
+.dropdown .dropdownButtons .deleteButton, .updateButton {
+    margin: 10% 5%;
+}
+
+.showButton {
+  background-color: #99a5f9c7;
+  margin: 10% 5%;
+  color: #ffffff;
+}
+
+.showButton:hover {
+  background-color: #99a5f9;
+  margin: 10% 5%;
+  color: #ffffff;
+}
+
+.showButton:active {
+  background-color: #99a5f9 !important;
+  border: 0 !important;
+  margin: 10% 5%;
+  color: #ffffff !important;
+}
+.backButton {
+  position: absolute;
+  margin-top: 80px;
+  right: 20px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.backButton i {
+  font-size: xx-large;
+}
+
+.dataTables_wrapper{
+  margin-left: 15%;
+  padding: 1px 16px;
+  margin-top: 130px;
+}
+
+.displayNone {
+  display: none;
+}
+
+.table {
+  width: 100% !important;
+}
+
+.dataTables_scrollHeadInner {
+  width: 100% !important;
+}
+
+.noSort:before{
+  display: none;
+}
+
+.is_approved {
+  color: #008000!important ;
+}
